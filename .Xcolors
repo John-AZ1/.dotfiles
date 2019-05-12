@@ -1,0 +1,17 @@
+#define black #000000
+#define gray #ff0000
+#define red #33ff00
+#define brRed #ff0099
+#define green #0066ff
+#define brGreen #cc00ff
+#define yellow #00ffff
+#define brYellow #d0d0d0
+#define blue #808080
+#define brBlue #ff0000
+#define magenta #33ff00
+#define brMagenta #ff0099
+#define cyan #0066ff
+#define brCyan #cc00ff
+#define white #00ffff
+#define altWhite #ffffff
+

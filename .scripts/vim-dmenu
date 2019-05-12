@@ -1,0 +1,11 @@
+#!/bin/sh
+
+file=`locate -r . | awk '{gsub("/home/azule/", "~/"); print}' | dmenu -f`
+
+rtrn=$?
+
+if test "$rtrn" = "0"; then
+  vim $file
+else
+  echo "You aborted."
+fi
