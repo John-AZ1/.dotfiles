@@ -120,3 +120,4 @@ bindkey "^j" down-line-or-beginning-search # Down
 LS_COLORS='ow=48;5;005:di=48;5;005;1:*.py=38;5;212:*.txt=38;5;209:*.md=38;5;209:*.html=38;5;209:*.htm=38;5;209:*.js=38;5;49:*.jsx=38;5;49:*.json=38;5;184:*.db=38;5;184'
 export LS_COLORS
 bindkey "^?" backward-delete-char
+alias dot-cfg='/usr/bin/git --git-dir=/home/azule/.dotfiles/ --work-tree=/home/azule'
